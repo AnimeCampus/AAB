@@ -6,7 +6,7 @@ class Config:
     BOT_TOKEN = getenv("BOT_TOKEN", "6655586588:AAGVpTOBW2IflwbS0WOEhAmXfyrUn-DZKVs")
     FSUB = getenv("FSUB", "Anime_Campus")
     CHID = int(getenv("CHID", "-1001453145062"))
-    SUDO = list(map(int, getenv("SUDO", "6198858059, 6265459491").split()))
+    SUDO = list(map(int, getenv("SUDO", "6265459491").split()))
     MONGO_URI = getenv("MONGO_URI", "mongodb+srv://sonu55:sonu55@cluster0.vqztrvk.mongodb.net/?retryWrites=true&w=majority")
     
 cfg = Config()
