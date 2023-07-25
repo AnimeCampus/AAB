@@ -50,7 +50,7 @@ async def op(_, m :Message):
                         InlineKeyboardButton("🗯 Channel", url="https://t.me/JujutsuHighNetwork"),
                         InlineKeyboardButton("💬 Support", url="https://t.me/JHBots")
                     ],[
-                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/SDAutoApproveBot?startgroup")
+                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/Mai_Sakurajima_Approve_Bot?startgroup")
                     ]
                 ]
             )
@@ -61,7 +61,7 @@ async def op(_, m :Message):
             keyboar = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("💁‍♂️ Start me private 💁‍♂️", url="https://t.me/SDAutoApproveBot?start=start")
+                        InlineKeyboardButton("💁‍♂️ Start me private 💁‍♂️", url="https://t.me/Mai_Sakurajima_Approve_Bot?start=start")
                     ]
                 ]
             )
@@ -92,7 +92,7 @@ async def chk(_, cb : CallbackQuery):
                         InlineKeyboardButton("🗯 Channel", url="https://t.me/JujutsuHighNetwork"),
                         InlineKeyboardButton("💬 Support", url="https://t.me/JHBots")
                     ],[
-                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/SDAutoApproveBot?startgroup")
+                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/Mai_Sakurajima_Approve_Bot?startgroup")
                     ]
                 ]
             )
