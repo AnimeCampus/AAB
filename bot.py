@@ -48,7 +48,7 @@ async def op(_, m :Message):
                 [
                     [
                         InlineKeyboardButton("🗯 Channel", url="https://t.me/illuminatiXNetwork"),
-                        InlineKeyboardButton("💬 Owner ", url="https://t.me/")
+                        InlineKeyboardButton("💬 Owner ", url="https://t.me/BIackHatDev")
                     ],[
                         InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/AutoRequest_xBot?startgroup")
                     ]
