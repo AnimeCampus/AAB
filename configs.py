@@ -7,6 +7,6 @@ class Config:
     FSUB = getenv("FSUB", "illuminatiXNetwork")
     CHID = int(getenv("CHID", "-1002115636462"))
     SUDO = list(map(int, getenv("SUDO", "6299128233").split()))
-    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://BlackHatDev:<password>@blackhatdev.zk92igo.mongodb.net/?retryWrites=true&w=majority")
+    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://BlackHatDev:BlackHatDev@blackhatdev.zk92igo.mongodb.net/?retryWrites=true&w=majority")
     
 cfg = Config()
